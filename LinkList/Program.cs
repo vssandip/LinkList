@@ -7,11 +7,17 @@ namespace LinkList
         static void Main(string[] args)
         {
             Console.WriteLine("~~~ WELCOME TO LINKLIST ~~~");
-           SimpleLinkList a = new SimpleLinkList();
+            /* SimpleLinkList a = new SimpleLinkList();
+              a.add(56);
+              a.add(30);
+              a.add(70);
+              a.show();*/
+            AddingLinkList a = new AddingLinkList();
             a.add(56);
             a.add(30);
             a.add(70);
             a.show();
+
         }
     }
 }
