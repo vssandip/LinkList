@@ -22,10 +22,17 @@ namespace LinkList
               appending.AddFirst(30);
               appending.AddFirst(56);
               appending.show();*/
-            UC4_LinkList a = new UC4_LinkList();
-            a.add(70);
+            /* UC4_LinkList a = new UC4_LinkList();
+             a.add(70);
+             a.add(56);
+             a.AddBTW(1, 30);
+             a.show();*/
+            DeleteTheFirstElement a = new DeleteTheFirstElement();
             a.add(56);
+
+            a.add(70);
             a.AddBTW(1, 30);
+            a.remove(0);
             a.show();
         }
     }
