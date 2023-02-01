@@ -27,12 +27,18 @@ namespace LinkList
              a.add(56);
              a.AddBTW(1, 30);
              a.show();*/
-            DeleteTheFirstElement a = new DeleteTheFirstElement();
-            a.add(56);
+            /* DeleteTheFirstElement a = new DeleteTheFirstElement();
+             a.add(56);
 
+             a.add(70);
+             a.AddBTW(1, 30);
+             a.remove(0);
+             a.show();*/
+            DeleteTheLastElement a = new DeleteTheLastElement();
+            a.add(56);
             a.add(70);
             a.AddBTW(1, 30);
-            a.remove(0);
+            a.remove(2);
             a.show();
         }
     }
